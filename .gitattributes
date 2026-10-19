@@ -1,0 +1,5 @@
+* text=auto
+*.mjs text eol=lf
+*.cpp text eol=lf
+*.sh text eol=lf
+*.cmd text eol=crlf

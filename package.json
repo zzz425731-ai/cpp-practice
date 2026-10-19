@@ -1,0 +1,14 @@
+{
+  "name": "cpp-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "拾题 · 中文离线 C++ 刷题器，带本地编译判题与学习记录",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs --open",
+    "serve": "node server.mjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "verify:bank": "node scripts/verify-bank.mjs"
+  }
+}
